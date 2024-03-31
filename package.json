@@ -1,14 +1,19 @@
 {
-  "name": "simple",
+  "name": "your-project-name",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Description of your project",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Add build script if needed\""
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
-    "aws-cli": "^0.0.2"
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "body-parser": "^1.19.0"
   }
 }
